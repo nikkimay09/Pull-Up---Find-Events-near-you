@@ -8,7 +8,7 @@
 
 ## Overview
 ### Description
-[Description of your app]
+This app helps you find events and places near you in your chosen radius.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
@@ -33,13 +33,21 @@ What will the app do?
 
 **Required User Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create a new account
+* User will be able to login
+* User will be able to post a picture or share a status
+* User can choose the preferred radius 
+* User should be able to choose the category of the event they want to attend
+* User can follow and look up other people
+* User is notified when their photo is liked or they are followed
+* User can like a photo
 
 **Optional User Stories**
 
-* [fill in your required user stories here]
-* ...
+* User will be able to post a story that stays for 24 hours
+* User can leave a comment on a photo
+* User is notified when their photo is liked or they are followed
+* 
 
 ### 2. Screen Archetypes
 
