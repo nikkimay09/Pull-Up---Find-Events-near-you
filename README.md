@@ -22,11 +22,11 @@ This app helps you find events and places near you in your chosen radius.
 ## Product Spec
 
 ### 1. Business Problem and User Base
-What problem are you solving and who will use the solution?
+Helping users explore their community an events near them and anyone who loves to explore their surrounding while destressing from their busy lives.
 
 
 ### 2. Description
-What will the app do?
+This app will help people in a community explore and connect with other people near them. 
 
 
 ### 3. User Stories
