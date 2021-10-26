@@ -47,7 +47,7 @@ What will the app do?
 * User will be able to post a story that stays for 24 hours
 * User can leave a comment on a photo
 * User is notified when their photo is liked or they are followed
-* 
+
 
 ### 2. Screen Archetypes
 
