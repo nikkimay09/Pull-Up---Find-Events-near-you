@@ -1,5 +1,4 @@
-### Pull-Up---Find-Events-near-you
-# Pull-Up
+# Pull-Up - Find-Events-near-you
 
 ## Table of Contents
 1. [Overview](#Overview)
