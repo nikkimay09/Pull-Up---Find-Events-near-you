@@ -51,7 +51,12 @@ What will the app do?
 
 ### 2. Screen Archetypes
 
-What screens will the user see?
+* Register
+* Login
+* Stream
+* Creation
+* Profile
+* Settings
 
 ### 3. Navigation
 
