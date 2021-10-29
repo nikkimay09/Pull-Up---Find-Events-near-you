@@ -51,6 +51,7 @@ This app will help people in a community explore and connect with other people n
 
 ### 2. Screen Archetypes
 
+* Welcome
 * Register
 * Login
 * Stream
