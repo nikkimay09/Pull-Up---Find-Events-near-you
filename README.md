@@ -71,7 +71,7 @@ This app will help people in a community explore and connect with other people n
 
 ## Wireframes
 [Add picture of your  wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="https://imgur.com/6wT4Yy7" width=600>
 
 
 ## Schema 
