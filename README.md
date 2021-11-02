@@ -63,7 +63,7 @@ This app will help people in a community explore and connect with other people n
 
 **Flow Navigation** (Screen to Screen)
 
-<img src="https://imgur.com/gxrzb9l.gif" width=400>
+<img src="https://imgur.com/IKgkJFr.gif" width=400>
 
 <!-- * [If you use Flow Navigation, delete the Tab Navigation Section. Include the screens the user will can see in order. 
 * (Examples) 
