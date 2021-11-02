@@ -1,4 +1,4 @@
-# Pull-Up - Find-Events-near-you
+# Xplore - Find-Events-near-you
 
 ## Table of Contents
 1. [Overview](#Overview)
