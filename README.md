@@ -63,14 +63,16 @@ This app will help people in a community explore and connect with other people n
 
 **Flow Navigation** (Screen to Screen)
 
-* [If you use Flow Navigation, delete the Tab Navigation Section. Include the screens the user will can see in order. 
+<img src="https://imgur.com/gxrzb9l.gif" width=400>
+
+<!-- * [If you use Flow Navigation, delete the Tab Navigation Section. Include the screens the user will can see in order. 
 * (Examples) 
     * Login
         * Home, Profile, Settings
-            * (within settings) you have the option to delet 
+            * (within settings) you have the option to delet  -->
 
 ## Wireframes
-[Add picture of your  wireframes in this section]
+
 <img src="https://imgur.com/6wT4Yy7.gif" width=500>
 
 
