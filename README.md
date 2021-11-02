@@ -63,7 +63,7 @@ This app will help people in a community explore and connect with other people n
 
 **Flow Navigation** (Screen to Screen)
 
-<img src="https://imgur.com/h5eTfzt.gif" width=400>
+<img src="https://imgur.com/gxrzb9l.gif" width=400>
 
 <!-- * [If you use Flow Navigation, delete the Tab Navigation Section. Include the screens the user will can see in order. 
 * (Examples) 
@@ -73,7 +73,7 @@ This app will help people in a community explore and connect with other people n
 
 ## Wireframes
 
-<img src="https://imgur.com/6wT4Yy7.gif" width=500>
+<img src="https://imgur.com/gxrzb9l.gif" width=500>
 
 
 ## Schema 
