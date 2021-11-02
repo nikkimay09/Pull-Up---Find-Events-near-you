@@ -61,14 +61,6 @@ This app will help people in a community explore and connect with other people n
 
 ### 3. Navigation
 
-**Tab Navigation** (Tab to Screen)
-
-* [If you use Tab navigation, delete the Flow Navigation Section. Include the screens the user will can see in order. 
-* (Examples) 
-    * Login
-        * Home, Profile, Settings
-            * (within settings) you have the option to delet account
-
 **Flow Navigation** (Screen to Screen)
 
 * [If you use Flow Navigation, delete the Tab Navigation Section. Include the screens the user will can see in order. 
