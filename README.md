@@ -90,7 +90,7 @@ This app will help people in a community explore and connect with other people n
 
 ## Schema 
 ### Models
-### Post
+#### Post
 
    | Property      | Type     | Description |
    | ------------- | -------- | ------------|
