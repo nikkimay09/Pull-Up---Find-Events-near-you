@@ -108,6 +108,6 @@ This app will help people in a community explore and connect with other people n
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
-< [Add list of network requests by screen ] >
+<!-- *  [Add list of network requests by screen ] 
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- [OPTIONAL: List endpoints if using existing API such as Yelp] -->
