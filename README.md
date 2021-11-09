@@ -82,7 +82,7 @@ This app will help people in a community explore and connect with other people n
 [Add table of models]
 ### Networking
 #### List of network requests by screen
-    - Home Feed Screen
+   - Home Feed Screen
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
