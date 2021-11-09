@@ -137,7 +137,7 @@ This app will help people in a community explore and connect with other people n
       - (Create/POST) Create a new comment on a post
       - (Delete) Delete existing comment
    - Create Post Screen
-      - (Create/POST) Create a new post object
+      - (Create/POST) Create a new post/status object
    - Profile Screen
       - (Read/GET) Query logged in user object
       - (Update/PUT) Update user profile image
