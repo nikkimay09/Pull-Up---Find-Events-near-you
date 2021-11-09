@@ -77,9 +77,23 @@ This app will help people in a community explore and connect with other people n
 
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+#### Post
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | login         | JSON Object   | user can log in to their account |
+   | register      | JSON Object   | user can create an account |
+   | username      | String   | unique user name created by the user |
+   | email         | String   | users email provided when creating the account |
+   | image         | File     | image that user posts |
+   | caption       | String   | image caption by author |
+   | commentsCount | Number   | number of comments that has been posted to an image |
+   | likesCount    | Number   | number of likes for the post |
+   | image         | File     | image of the recommended place |
+   | name          | String   | name of the recommended place under the image |
+   | timeline      | String   | timeline posted by the user |
+
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
