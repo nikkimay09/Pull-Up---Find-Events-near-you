@@ -16,7 +16,7 @@ This app helps you find events and places near you in your chosen radius.
 - **Mobile:** This app would be primarily developed for mobile.
 - **Story:**
 - **Market:** Any individual over 16 could choose to use this app.
-- **Habit:**
+- **Habit:** This app could be used as often or unoften as the user wanted
 - **Scope:**
 
 ## Product Spec
