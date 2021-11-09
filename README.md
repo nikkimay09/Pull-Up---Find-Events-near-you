@@ -77,9 +77,10 @@ This app will help people in a community explore and connect with other people n
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 [Add table of models]
+
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
@@ -99,6 +100,8 @@ This app will help people in a community explore and connect with other people n
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 
+
+# Delete this before submitting (Schema Example)
 ## Schema 
 ### Models
 #### Post
