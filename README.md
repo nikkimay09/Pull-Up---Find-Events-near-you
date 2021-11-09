@@ -97,6 +97,7 @@ This app will help people in a community explore and connect with other people n
 ### Networking
 #### List of network requests by screen
    - Home Feed Screen
+      - (Read/GET) User gets the feed of posts/statuses here
       - (Create/POST) Create a new like on a post
       - (Create/POST) Create a new comment on a post
       - (Create/POST) Create a new 24-Hour Story
