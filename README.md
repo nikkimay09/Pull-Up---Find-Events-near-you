@@ -12,10 +12,10 @@ This app helps you find events and places near you in your chosen radius.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category:** Social Networking
+- **Mobile:** This app would be primarily developed for mobile.
 - **Story:**
-- **Market:**
+- **Market:** Any individual over 16 could choose to use this app.
 - **Habit:**
 - **Scope:**
 
