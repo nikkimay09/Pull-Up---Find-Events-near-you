@@ -45,7 +45,6 @@ This app will help people in a community explore and connect with other people n
 
 * User will be able to post a story that stays for 24 hours
 * User is notified when their photo is liked or they are followed
-* User is notified when their photo is liked or they are followed
 * User should be able to choose the category of the event they want to attend
 
 
