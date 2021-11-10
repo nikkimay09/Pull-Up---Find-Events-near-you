@@ -37,16 +37,16 @@ This app will help people in a community explore and connect with other people n
 * User will be able to login
 * User will be able to post a picture or share a status
 * User can choose the preferred radius 
-* User should be able to choose the category of the event they want to attend
 * User can follow and look up other people
-* User is notified when their photo is liked or they are followed
 * User can like a photo
+* User can leave a comment on a photo
 
 **Optional User Stories**
 
 * User will be able to post a story that stays for 24 hours
-* User can leave a comment on a photo
 * User is notified when their photo is liked or they are followed
+* User is notified when their photo is liked or they are followed
+* User should be able to choose the category of the event they want to attend
 
 
 ### 2. Screen Archetypes
