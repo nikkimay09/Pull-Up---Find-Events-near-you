@@ -1,0 +1,6 @@
+framework module Pods_Xplore_XploreUITests {
+  umbrella header "Pods-Xplore-XploreUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
