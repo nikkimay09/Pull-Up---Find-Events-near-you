@@ -33,7 +33,7 @@ This app will help people in a community explore and connect with other people n
 
 **Required User Stories**
 
--[] User can create a new account
+- [] User can create a new account
 * User will be able to login
 * User will be able to post a picture or share a status
 * User can choose the preferred radius 
