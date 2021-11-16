@@ -35,7 +35,10 @@ This app will help people in a community explore and connect with other people n
 
 - [x] User can create a new account
 - [x] User will be able to login
-- [ ] User will be able to post a picture or share a status
+- [x] User will be able to post a picture or share a status
+*GIF*
+
+<img src="https://imgur.com/ZwwH0Fo.gif" width=400>
 - [ ] User can choose the preferred radius 
 - [ ] User can follow and look up other people
 - [ ] User can like a photo
