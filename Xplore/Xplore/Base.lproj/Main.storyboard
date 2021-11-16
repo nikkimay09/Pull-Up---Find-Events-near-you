@@ -53,6 +53,9 @@
                                 <color key="tintColor" red="0.038162820041179657" green="0.094465292990207672" blue="0.10216183215379715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray" title="Log In"/>
+                                <connections>
+                                    <action selector="onLogIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mB6-C3-kpJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pwb-X8-lmU">
                                 <rect key="frame" x="229" y="592" width="89" height="42"/>
