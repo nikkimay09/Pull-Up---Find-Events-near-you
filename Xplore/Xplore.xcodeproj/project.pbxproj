@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		27D97DDB163F94C2524B06F5 /* Pods_Xplore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88365AF7A3DC2EA0D27A7F78 /* Pods_Xplore.framework */; };
+		79047EEE2744C35B008FEFED /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79047EED2744C35A008FEFED /* CameraViewController.swift */; };
+		79047EF02744C85C008FEFED /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79047EEF2744C85B008FEFED /* PostCell.swift */; };
+		79047EF22744CA94008FEFED /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79047EF12744CA94008FEFED /* FeedViewController.swift */; };
 		861EB66B2742EFAC001F79F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB66A2742EFAC001F79F8 /* AppDelegate.swift */; };
 		861EB66D2742EFAC001F79F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB66C2742EFAC001F79F8 /* SceneDelegate.swift */; };
 		861EB6722742EFAC001F79F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EB6702742EFAC001F79F8 /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 		1216956A6D29BE7BC268BF97 /* Pods_XploreTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XploreTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE6023DBE61827632CAFFBE /* Pods_Xplore_XploreUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xplore_XploreUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		776DEA932D51A09E0CA97493 /* Pods-XploreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XploreTests.release.xcconfig"; path = "Target Support Files/Pods-XploreTests/Pods-XploreTests.release.xcconfig"; sourceTree = "<group>"; };
+		79047EED2744C35A008FEFED /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		79047EEF2744C85B008FEFED /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		79047EF12744CA94008FEFED /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		861EB6672742EFAC001F79F8 /* Xplore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xplore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EB66A2742EFAC001F79F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		861EB66C2742EFAC001F79F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +129,9 @@
 				861EB6752742EFB0001F79F8 /* LaunchScreen.storyboard */,
 				861EB6782742EFB0001F79F8 /* Info.plist */,
 				86F356FC2742FCC90048C7DD /* LoginViewController.swift */,
+				79047EED2744C35A008FEFED /* CameraViewController.swift */,
+				79047EEF2744C85B008FEFED /* PostCell.swift */,
+				79047EF12744CA94008FEFED /* FeedViewController.swift */,
 			);
 			path = Xplore;
 			sourceTree = "<group>";
@@ -407,8 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F356FD2742FCC90048C7DD /* LoginViewController.swift in Sources */,
+				79047EEE2744C35B008FEFED /* CameraViewController.swift in Sources */,
 				861EB66B2742EFAC001F79F8 /* AppDelegate.swift in Sources */,
 				861EB66D2742EFAC001F79F8 /* SceneDelegate.swift in Sources */,
+				79047EF22744CA94008FEFED /* FeedViewController.swift in Sources */,
+				79047EF02744C85C008FEFED /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
