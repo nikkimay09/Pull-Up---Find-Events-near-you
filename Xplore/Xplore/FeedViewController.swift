@@ -15,7 +15,6 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     @IBOutlet weak var tableView: UITableView!
     
-    
     var posts = [PFObject]()
     
     override func viewDidLoad() {
@@ -60,7 +59,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let url = URL(string: urlString)!
         
         cell.photoView.af_setImage(withURL: url)
+        self.favoritePost(cellForRowAt: indexPath)
         
+        
+        cell.setLike(_isLiked: post["favorited"] as! Bool)
+        cell.posts = self.posts
         return cell
     }
     @IBAction func onLogoutButton(_ sender: Any) {
@@ -71,6 +74,29 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         guard let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene, let delegate = windowScene.delegate as? SceneDelegate else { return }
         
         delegate.window?.rootViewController = loginViewController
+    }
+    
+    func favoritePost(cellForRowAt indexPath: IndexPath){
+        let post = posts[indexPath.row]
+        print(post)
+        var fav = post["favorited"]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        if(fav as! Bool){
+            cell.favButton.setImage(UIImage(named:"favor-icon-red"), for: UIControl.State.normal)
+        }
+        else{
+            cell.favButton.setImage(UIImage(named:"favor-icon"), for: UIControl.State.normal)
+        }
+        
+        //create a variable for  favorite
+        // let fav = post["favorited"]
+        //check if favorited is set to false or true
+        //check current status of button
+        //example: use an if statement
+        //if favorited is true, set the buttons image to a red heart(whatever u want it to be)
+        // if its false, leave the image
+        
+        //
     }
     
     /*
