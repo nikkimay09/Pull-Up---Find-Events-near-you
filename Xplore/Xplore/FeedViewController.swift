@@ -15,9 +15,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
     
 
     @IBOutlet weak var tableView: UITableView!
+
     let commentBar = MessageInputBar()
     var showsCommentBar = false
     var selectedPost: PFObject!
+
     
     var posts = [PFObject]()
     
@@ -121,7 +123,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         let post = posts[indexPath.section]
         let comments = (post["comments"] as? [PFObject]) ?? []
-        
+
         if indexPath.row == 0{
             let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
 
@@ -135,7 +137,11 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             let url = URL(string: urlString)!
             
             cell.photoView.af_setImage(withURL: url)
+            self.favoritePost(cellForRowAt: indexPath)
             
+            cell.setLike(_isLiked: post["favorited"] as! Bool)
+            cell.posts = self.posts
+          
             return cell
         }else if indexPath.row <= comments.count {
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
@@ -163,6 +169,21 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         delegate.window?.rootViewController = loginViewController
     }
     
+
+    func favoritePost(cellForRowAt indexPath: IndexPath){
+        let post = posts[indexPath.row]
+        print(post)
+        var fav = post["favorited"]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
+        if(fav as! Bool){
+            cell.favButton.setImage(UIImage(named:"favor-icon-red"), for: UIControl.State.normal)
+        }
+        else{
+            cell.favButton.setImage(UIImage(named:"favor-icon"), for: UIControl.State.normal)
+        }
+        
+    }
+
     
     /*
     // MARK: - Navigation

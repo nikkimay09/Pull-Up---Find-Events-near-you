@@ -129,15 +129,25 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xM-z7-mht">
-                                                    <rect key="frame" x="58.5" y="318" width="347.5" height="20.5"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="comment" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8xM-z7-mht">
+                                                    <rect key="frame" x="59" y="318" width="289" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMX-Q4-4QX" userLabel="favButton">
+                                                    <rect key="frame" x="364" y="314" width="30" height="30"/>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" image="favor-icon" title=""/>
+                                                    <connections>
+                                                        <action selector="LikePic:" destination="nGm-Ub-v2Q" eventType="touchUpInside" id="kkV-pw-TOI"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="8xM-z7-mht" firstAttribute="baseline" secondItem="gc2-OM-7Zx" secondAttribute="firstBaseline" id="0eP-ft-qkw"/>
+                                                <constraint firstAttribute="trailing" secondItem="rMX-Q4-4QX" secondAttribute="trailing" constant="10" id="3VD-TL-qv6"/>
+                                                <constraint firstAttribute="bottom" secondItem="rMX-Q4-4QX" secondAttribute="bottom" constant="10" id="5jd-DZ-VgT"/>
                                                 <constraint firstAttribute="trailing" secondItem="8xM-z7-mht" secondAttribute="trailing" constant="8" id="9xa-pF-KR0"/>
                                                 <constraint firstItem="gc2-OM-7Zx" firstAttribute="centerY" secondItem="8xM-z7-mht" secondAttribute="centerY" id="Fcm-Lm-fd3"/>
                                                 <constraint firstAttribute="trailing" secondItem="oIW-fL-OlQ" secondAttribute="trailing" constant="8" id="SDg-e4-zzZ"/>
@@ -152,6 +162,7 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="captionLabel" destination="8xM-z7-mht" id="p61-hq-biN"/>
+                                            <outlet property="favButton" destination="rMX-Q4-4QX" id="oYX-lF-mio"/>
                                             <outlet property="photoView" destination="oIW-fL-OlQ" id="r0W-aF-fTv"/>
                                             <outlet property="usernameLabel" destination="gc2-OM-7Zx" id="sEu-jy-WoI"/>
                                         </connections>
@@ -233,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFy-Am-LK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1636.2318840579712" y="68.973214285714278"/>
+            <point key="canvasLocation" x="1594" y="69"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="HgK-1E-wPb">
@@ -307,6 +318,7 @@
         <image name="Screen Shot 2021-11-15 at 3.43.36 PM" width="620" height="190"/>
         <image name="arrow.triangle.2.circlepath.camera" catalog="system" width="128" height="94"/>
         <image name="camera.metering.center.weighted" catalog="system" width="128" height="93"/>
+        <image name="favor-icon" width="30" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
