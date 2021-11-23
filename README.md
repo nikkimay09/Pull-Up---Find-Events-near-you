@@ -43,7 +43,8 @@ Link to GIF : https://imgur.com/ZwwH0Fo.gif
 - [X] User can leave a comment on a photo
 - [X] User can remove the like.
 
-Link to GIF : 
+Link to GIF : https://imgur.com/hkgYgTv.gif
+<img src="https://imgur.com/hkgYgTv.gif" width=400>
 
 **Optional User Stories**
 
