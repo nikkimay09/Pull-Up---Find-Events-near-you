@@ -51,6 +51,8 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
 
 
 
+
+
  - [ ] User can see a list of events near them.
  - [ ] User can see their Account Page.
  - [ ] User can access settings.
