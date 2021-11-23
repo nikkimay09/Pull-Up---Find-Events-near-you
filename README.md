@@ -47,12 +47,13 @@ Link to GIF : https://imgur.com/ZwwH0Fo.gif
 Link to GIF : https://imgur.com/hkgYgTv.gif
 
 
+<img src="https://imgur.com/hkgYgTv.gif" width=400>
+
+
+
  - [ ] User can see a list of events near them.
  - [ ] User can see their Account Page.
  - [ ] User can access settings.
-
-
-<img src="https://imgur.com/hkgYgTv.gif" width=400>
 
 **Optional User Stories**
 
