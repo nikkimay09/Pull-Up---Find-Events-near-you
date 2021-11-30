@@ -226,18 +226,27 @@
                         <viewLayoutGuide key="safeArea" id="yF4-jv-wVd"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="9Mk-a9-AS7">
                         <barButtonItem key="leftBarButtonItem" title="LogOut" id="6yc-3I-65l">
                             <connections>
                                 <action selector="onLogoutButton:" destination="XIU-eH-5dr" id="OdI-5o-Pua"/>
                             </connections>
                         </barButtonItem>
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="arrow.triangle.2.circlepath.camera" catalog="system" id="Yay-52-oKn">
-                            <connections>
-                                <segue destination="Dw6-DC-wAd" kind="presentation" id="c1x-x7-ZV4"/>
-                            </connections>
-                        </barButtonItem>
+                        <rightBarButtonItems>
+                            <barButtonItem title="Item" image="arrow.triangle.2.circlepath.camera" catalog="system" id="Yay-52-oKn">
+                                <connections>
+                                    <segue destination="Dw6-DC-wAd" kind="presentation" id="c1x-x7-ZV4"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Account" id="6jF-nr-O5d">
+                                <connections>
+                                    <segue destination="S3X-rJ-OVJ" kind="presentation" id="NyB-OO-2Rl"/>
+                                </connections>
+                            </barButtonItem>
+                        </rightBarButtonItems>
                     </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="tableView" destination="WU0-cO-2jo" id="f8K-oZ-qGL"/>
                     </connections>
@@ -245,6 +254,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFy-Am-LK5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1594" y="69"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="5Jj-Z1-Rzg">
+            <objects>
+                <viewController title="Profile View Controller" id="S3X-rJ-OVJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OAz-u5-Tmj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Your Name Goes here" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jlm-Hn-E1s">
+                                <rect key="frame" x="171" y="108" width="223" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="person.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="WKF-70-GuQ">
+                                <rect key="frame" x="19" y="36" width="144" height="178"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkr-5m-7Xp">
+                                <rect key="frame" x="29" y="280" width="125" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="OSI-86-WSz">
+                                <rect key="frame" x="20" y="360" width="374" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X9g-Bq-Pdw"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7HR-fj-5Wo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2366.666666666667" y="-271.20535714285711"/>
         </scene>
         <!--Camera View Controller-->
         <scene sceneID="HgK-1E-wPb">
@@ -293,7 +345,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2347.826086956522" y="68.973214285714278"/>
+            <point key="canvasLocation" x="2367" y="427"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4MH-x8-zkM">
@@ -319,6 +371,10 @@
         <image name="arrow.triangle.2.circlepath.camera" catalog="system" width="128" height="94"/>
         <image name="camera.metering.center.weighted" catalog="system" width="128" height="93"/>
         <image name="favor-icon" width="30" height="30"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="121"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
