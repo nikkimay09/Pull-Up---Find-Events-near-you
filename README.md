@@ -54,7 +54,11 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
 
 
  - [ ] User can see a list of events near them.
- - [ ] User can see their Account Page.
+ - [X]  implementation of Account button on feed page. Pressing this button will take you to account page
+ 
+ <img src="https://imgur.com/XISGkVR.gif" width=400>
+ 
+ 
  - [ ] User can access settings.
 
 **Optional User Stories**
