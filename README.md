@@ -56,7 +56,7 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
  - [X] implementation of Events button on feed page. Pressing this button will take you to events page.
    
       #### LINK TO gif : https://imgur.com/nER4mKT.gif  ####
- <img src="https://imgur.com/nER4mKT.gif " width=400>
+ <img src="https://imgur.com/nER4mKT.gif " width=100>
    
  - [X]  implementation of Account button on feed page. Pressing this button will take you to account page.
 
