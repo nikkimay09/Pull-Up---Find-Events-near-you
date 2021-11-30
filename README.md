@@ -59,7 +59,7 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
    ### LINK TO gif : https://imgur.com/XISGkVR.gif ###
    
    
- <img src="https://imgur.com/XISGkVR.gif" width=100>
+ <img src="https://imgur.com/THnlSi4.gif " width=400>
  
  
  - [ ] User can access settings page.
