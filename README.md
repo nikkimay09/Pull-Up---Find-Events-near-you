@@ -116,7 +116,6 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
    | likesCount    | Number   | number of likes for the post |
    | image         | File     | image of the recommended place |
    | name          | String   | name of the recommended place under the image |
-   | timeline      | String   | timeline posted by the user |
 
 ### Networking
 #### List of network requests by screen
