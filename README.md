@@ -56,10 +56,10 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
  - [ ] implementation of Events button on feed page. Pressing this button will take you to events page.
  - [X]  implementation of Account button on feed page. Pressing this button will take you to account page.
 
-   ### LINK TO gif : https://imgur.com/XISGkVR.gif ###
+   #### LINK TO gif : https://imgur.com/THnlSi4.gif  ####
    
    
- <img src="https://imgur.com/THnlSi4.gif " width=400>
+ <img src="https://imgur.com/THnlSi4.gif " width=100>
  
  
  - [ ] User can access settings page.
