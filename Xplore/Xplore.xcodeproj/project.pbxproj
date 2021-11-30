@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,9 @@
 		861EB6772742EFB0001F79F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861EB6752742EFB0001F79F8 /* LaunchScreen.storyboard */; };
 		861EB6822742EFB0001F79F8 /* XploreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB6812742EFB0001F79F8 /* XploreTests.swift */; };
 		861EB68D2742EFB0001F79F8 /* XploreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861EB68C2742EFB0001F79F8 /* XploreUITests.swift */; };
+		86B269CE2755714200E58460 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B269CD2755714200E58460 /* EventsViewController.swift */; };
+		86B269D02755C33900E58460 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B269CF2755C33900E58460 /* EventCell.swift */; };
+		86B269D32755C97400E58460 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 86B269D22755C97400E58460 /* AlamofireImage */; };
 		86F356FD2742FCC90048C7DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F356FC2742FCC90048C7DD /* LoginViewController.swift */; };
 		A136C624FD870547DF24270E /* Pods_Xplore_XploreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE6023DBE61827632CAFFBE /* Pods_Xplore_XploreUITests.framework */; };
 		B7AB772D2755BEFB001144F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB772C2755BEFB001144F7 /* ProfileViewController.swift */; };
@@ -63,6 +66,8 @@
 		861EB6882742EFB0001F79F8 /* XploreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XploreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		861EB68C2742EFB0001F79F8 /* XploreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XploreUITests.swift; sourceTree = "<group>"; };
 		861EB68E2742EFB0001F79F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B269CD2755714200E58460 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
+		86B269CF2755C33900E58460 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
 		86F356FC2742FCC90048C7DD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		88365AF7A3DC2EA0D27A7F78 /* Pods_Xplore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xplore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DF3EAD6DC9AF0020A72D57 /* Pods-Xplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xplore.release.xcconfig"; path = "Target Support Files/Pods-Xplore/Pods-Xplore.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +84,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27D97DDB163F94C2524B06F5 /* Pods_Xplore.framework in Frameworks */,
+				86B269D32755C97400E58460 /* AlamofireImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +143,12 @@
 				79047EEF2744C85B008FEFED /* PostCell.swift */,
 				79047EF12744CA94008FEFED /* FeedViewController.swift */,
 				792076B2274B1D5800CBAF72 /* CommentCell.swift */,
+
 				B7AB772C2755BEFB001144F7 /* ProfileViewController.swift */,
+
+				86B269CD2755714200E58460 /* EventsViewController.swift */,
+				86B269CF2755C33900E58460 /* EventCell.swift */,
+
 			);
 			path = Xplore;
 			sourceTree = "<group>";
@@ -201,6 +212,9 @@
 			dependencies = (
 			);
 			name = Xplore;
+			packageProductDependencies = (
+				86B269D22755C97400E58460 /* AlamofireImage */,
+			);
 			productName = Xplore;
 			productReference = 861EB6672742EFAC001F79F8 /* Xplore.app */;
 			productType = "com.apple.product-type.application";
@@ -275,6 +289,9 @@
 				Base,
 			);
 			mainGroup = 861EB65E2742EFAC001F79F8;
+			packageReferences = (
+				86B269D12755C97400E58460 /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
 			productRefGroup = 861EB6682742EFAC001F79F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -422,6 +439,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86F356FD2742FCC90048C7DD /* LoginViewController.swift in Sources */,
+				86B269D02755C33900E58460 /* EventCell.swift in Sources */,
+				86B269CE2755714200E58460 /* EventsViewController.swift in Sources */,
 				79047EEE2744C35B008FEFED /* CameraViewController.swift in Sources */,
 				861EB66B2742EFAC001F79F8 /* AppDelegate.swift in Sources */,
 				861EB66D2742EFAC001F79F8 /* SceneDelegate.swift in Sources */,
@@ -761,6 +780,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86B269D12755C97400E58460 /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86B269D22755C97400E58460 /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86B269D12755C97400E58460 /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 861EB65F2742EFAC001F79F8 /* Project object */;
 }

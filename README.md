@@ -39,10 +39,23 @@ This app will help people in a community explore and connect with other people n
 
 Link to GIF : https://imgur.com/ZwwH0Fo.gif 
 
-- [ ] User can choose the preferred radius 
-- [ ] User can follow and look up other people
-- [ ] User can like a photo
-- [ ] User can leave a comment on a photo
+
+- [X] User can like a photo
+- [X] User can leave a comment on a photo
+- [X] User can remove the like.
+
+Link to GIF : https://imgur.com/hkgYgTv.gif
+
+
+<img src="https://imgur.com/hkgYgTv.gif" width=400>
+
+
+
+
+
+ - [ ] User can see a list of events near them.
+ - [ ] User can see their Account Page.
+ - [ ] User can access settings.
 
 **Optional User Stories**
 
