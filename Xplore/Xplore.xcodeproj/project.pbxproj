@@ -24,6 +24,7 @@
 		86B269D32755C97400E58460 /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 86B269D22755C97400E58460 /* AlamofireImage */; };
 		86F356FD2742FCC90048C7DD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F356FC2742FCC90048C7DD /* LoginViewController.swift */; };
 		A136C624FD870547DF24270E /* Pods_Xplore_XploreUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE6023DBE61827632CAFFBE /* Pods_Xplore_XploreUITests.framework */; };
+		B7AB772D2755BEFB001144F7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AB772C2755BEFB001144F7 /* ProfileViewController.swift */; };
 		C9609411C18BD72DEC6565AC /* Pods_XploreTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1216956A6D29BE7BC268BF97 /* Pods_XploreTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		88365AF7A3DC2EA0D27A7F78 /* Pods_Xplore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xplore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DF3EAD6DC9AF0020A72D57 /* Pods-Xplore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xplore.release.xcconfig"; path = "Target Support Files/Pods-Xplore/Pods-Xplore.release.xcconfig"; sourceTree = "<group>"; };
 		A35C5C36D6BBB58FCDFC44E8 /* Pods-Xplore-XploreUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xplore-XploreUITests.release.xcconfig"; path = "Target Support Files/Pods-Xplore-XploreUITests/Pods-Xplore-XploreUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7AB772C2755BEFB001144F7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		BF485D148166BA371F375725 /* Pods-XploreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XploreTests.debug.xcconfig"; path = "Target Support Files/Pods-XploreTests/Pods-XploreTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C39373065738DE31A0356341 /* Pods-Xplore-XploreUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xplore-XploreUITests.debug.xcconfig"; path = "Target Support Files/Pods-Xplore-XploreUITests/Pods-Xplore-XploreUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EC2E30680EFC1AB3970568E9 /* Pods-Xplore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xplore.debug.xcconfig"; path = "Target Support Files/Pods-Xplore/Pods-Xplore.debug.xcconfig"; sourceTree = "<group>"; };
@@ -141,8 +143,12 @@
 				79047EEF2744C85B008FEFED /* PostCell.swift */,
 				79047EF12744CA94008FEFED /* FeedViewController.swift */,
 				792076B2274B1D5800CBAF72 /* CommentCell.swift */,
+
+				B7AB772C2755BEFB001144F7 /* ProfileViewController.swift */,
+
 				86B269CD2755714200E58460 /* EventsViewController.swift */,
 				86B269CF2755C33900E58460 /* EventCell.swift */,
+
 			);
 			path = Xplore;
 			sourceTree = "<group>";
@@ -440,6 +446,7 @@
 				861EB66D2742EFAC001F79F8 /* SceneDelegate.swift in Sources */,
 				79047EF22744CA94008FEFED /* FeedViewController.swift in Sources */,
 				79047EF02744C85C008FEFED /* PostCell.swift in Sources */,
+				B7AB772D2755BEFB001144F7 /* ProfileViewController.swift in Sources */,
 				792076B3274B1D5800CBAF72 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
