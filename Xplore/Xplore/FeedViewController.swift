@@ -10,18 +10,25 @@ import Parse
 import AlamofireImage
 import MessageInputBar
 
-class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, MessageInputBarDelegate {
+class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, MessageInputBarDelegate, CellDelegate {
 
     
 
     @IBOutlet weak var tableView: UITableView!
 
     let commentBar = MessageInputBar()
+
     var showsCommentBar = false
     var selectedPost: PFObject!
 
-    
     var posts = [PFObject]()
+    
+    
+    func onCellDelete(indexPath: IndexPath) {
+        
+        posts.remove(at: indexPath.section)
+        tableView.reloadData()
+    }
     
     @objc func keyboardWillBeHidden(note: Notification){
         commentBar.inputTextView.text = nil
@@ -105,6 +112,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             if posts != nil {
                 self.posts = posts!
                 self.tableView.reloadData()
+                print("POST COUNT: \(self.posts.count)")
             }
         }
     }
@@ -142,6 +150,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.setLike(_isLiked: post["favorited"] as! Bool)
             cell.posts = self.posts
           
+            cell.delegate = self
+            
             return cell
         }else if indexPath.row <= comments.count {
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
@@ -172,7 +182,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
 
     func favoritePost(cellForRowAt indexPath: IndexPath){
         let post = posts[indexPath.row]
-        print(post)
+//        print(post)
         var fav = post["favorited"]
         let cell = tableView.dequeueReusableCell(withIdentifier: "PostCell") as! PostCell
         if(fav as! Bool){
@@ -182,9 +192,13 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
             cell.favButton.setImage(UIImage(named:"favor-icon"), for: UIControl.State.normal)
         }
         
+        
+        
+        
+        
     }
 
-    
+
     /*
     // MARK: - Navigation
 

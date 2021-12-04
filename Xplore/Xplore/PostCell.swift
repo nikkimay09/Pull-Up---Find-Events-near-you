@@ -8,13 +8,21 @@
 import UIKit
 import Parse
 
-class PostCell: UITableViewCell {
+protocol CellDelegate{
+    
+    func onCellDelete(indexPath: IndexPath)
+}
+
+class PostCell: UITableViewCell  {
 
     @IBOutlet weak var captionLabel: UILabel!
     @IBOutlet weak var usernameLabel: UILabel!
     @IBOutlet weak var photoView: UIImageView!
     
+    
     @IBOutlet weak var favButton: UIButton!
+    
+    var delegate: CellDelegate?
     var liked:Bool = false
     var posts = [PFObject]()
     
@@ -25,7 +33,7 @@ class PostCell: UITableViewCell {
         
         // Get the post being liked/unliked
         let indexPath = getIndexPath()
-        let post = posts[indexPath!.row]
+        let post = posts[indexPath!.section]
         // set "favorited" to self.liked
         post["favorited"] = self.liked
         // save the post
@@ -37,6 +45,7 @@ class PostCell: UITableViewCell {
             print("superview is not a UITableView - getIndexPath")
             return nil
         }
+        
         let indexPath = superView.indexPath(for: self)!
         return indexPath
     }
@@ -63,5 +72,21 @@ class PostCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    @IBAction func onDelete(_ sender: Any) {
+        print("DELETING POST...")
+        let indexPath = getIndexPath()!
+        let post = posts[indexPath.section]
+        post.deleteInBackground{ (success, error) in
+            if success {
+                print("DELETE SUCCESSFUL")
+                self.delegate?.onCellDelete(indexPath: indexPath)
+            } else {
+                print("error deleting on parse server \(error.debugDescription)")
+            }
+        }
+        
+    }
+    
 
 }

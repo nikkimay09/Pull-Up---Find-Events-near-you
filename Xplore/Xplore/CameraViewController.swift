@@ -10,7 +10,8 @@ import AlamofireImage
 import Parse
 
 class CameraViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-
+    
+    @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var commentField: UITextField!
     override func viewDidLoad() {
@@ -65,6 +66,11 @@ class CameraViewController: UIViewController, UIImagePickerControllerDelegate, U
         dismiss(animated:true, completion:nil)
         
     }
+
+    
+    
+    
+
     
 
     /*
