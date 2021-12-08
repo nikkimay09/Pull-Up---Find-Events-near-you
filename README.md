@@ -64,7 +64,8 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
  <img src="https://imgur.com/THnlSi4.gif " width=100>
  
  
- - [X] Final Presentation  https://drive.google.com/file/d/13BkUTChyn8qPBzrHcFNqdvFWIJXqauoj/view
+ - [X] Final Presentation  
+ - [X] Walkthrough video.  Link:  https://drive.google.com/file/d/13BkUTChyn8qPBzrHcFNqdvFWIJXqauoj/view
 
 **Optional User Stories**
 
