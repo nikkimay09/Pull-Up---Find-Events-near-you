@@ -31,11 +31,15 @@ This app will help people in a community explore and connect with other people n
 
 ### 3. User Stories
 
-**Required User Stories**
-
-- [x] User can create a new account
-- [x] User will be able to login
-- [x] User will be able to post a picture
+- User can sign up to create a new account.
+- User will be able to login
+- User stays logged in across restarts.
+- User can log out.
+- User will be able to post a picture
+- User can add a new comment.
+- User can view comments on a post.
+- User can view the last 20 posts.
+- User sees app icon in home screen and styled launch screen.
 
 Link to GIF : https://imgur.com/ZwwH0Fo.gif 
 
@@ -66,13 +70,6 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
  
  - [X] Final Presentation  
  - [X] Walkthrough video.  Link:  https://drive.google.com/file/d/13BkUTChyn8qPBzrHcFNqdvFWIJXqauoj/view
-
-**Optional User Stories**
-
-* User will be able to post a story that stays for 24 hours
-* User is notified when their photo is liked or they are followed
-* User should be able to choose the category of the event they want to attend
-
 
 ### 2. Screen Archetypes
 
