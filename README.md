@@ -36,17 +36,13 @@ This app will help people in a community explore and connect with other people n
 - User stays logged in across restarts.
 - User can log out.
 - User will be able to post a picture
+- User can like and unlike a post.
 - User can add a new comment.
 - User can view comments on a post.
 - User can view the last 20 posts.
 - User sees app icon in home screen and styled launch screen.
 
 Link to GIF : https://imgur.com/ZwwH0Fo.gif 
-
-
-- [X] User can like a photo
-- [X] User can leave a comment on a photo
-- [X] User can remove the like.
 
 Link to GIF : https://imgur.com/hkgYgTv.gif
 
@@ -68,8 +64,8 @@ Link to GIF : https://imgur.com/hkgYgTv.gif
  <img src="https://imgur.com/THnlSi4.gif " width=100>
  
  
- - [X] Final Presentation  
- - [X] Walkthrough video.  Link:  https://drive.google.com/file/d/13BkUTChyn8qPBzrHcFNqdvFWIJXqauoj/view
+ - Final Presentation & Walkthrough video.  
+   Link:  https://drive.google.com/file/d/13BkUTChyn8qPBzrHcFNqdvFWIJXqauoj/view
 
 ### 2. Screen Archetypes
 
